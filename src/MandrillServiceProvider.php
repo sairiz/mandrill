@@ -44,7 +44,7 @@ class MandrillServiceProvider extends ServiceProvider {
 	 */
 	public function provides()
 	{
-		return array('mandrill');
+		return ['mandrill'];
 	}
 
 }
