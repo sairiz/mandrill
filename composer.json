@@ -1,6 +1,8 @@
 {
     "name": "saiffil/mandrill",
     "description": "Mandrill Official API Wrapper for Laravel 4",
+    "keywords": ["laravel", "mandrill"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Saiffil Fariz Mohamad Yusuff",
