@@ -1,6 +1,6 @@
 {
     "name": "saiffil/mandrill",
-    "description": "",
+    "description": "Mandrill Official API Wrapper for Laravel 4",
     "authors": [
         {
             "name": "Saiffil Fariz Mohamad Yusuff",
