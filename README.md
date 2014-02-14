@@ -1,7 +1,7 @@
 Mandrill Official API Wrapper for Laravel 4
 ===========================================
 
-[![Latest Stable Version](https://poser.pugx.org/mandrill/mandrill/v/stable.png)](https://packagist.org/packages/mandrill/mandrill) [![Total Downloads](https://poser.pugx.org/mandrill/mandrill/downloads.png)](https://packagist.org/packages/mandrill/mandrill) [![License](https://poser.pugx.org/mandrill/mandrill/license.png)](https://packagist.org/packages/mandrill/mandrill)
+[![Latest Stable Version](https://poser.pugx.org/sairiz/mandrill/v/stable.png)](https://packagist.org/packages/sairiz/mandrill) [![Total Downloads](https://poser.pugx.org/sairiz/mandrill/downloads.png)](https://packagist.org/packages/sairiz/mandrill) [![License](https://poser.pugx.org/sairiz/mandrill/license.png)](https://packagist.org/packages/sairiz/mandrill)
 
 
 Installation :
