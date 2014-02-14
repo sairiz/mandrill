@@ -7,15 +7,15 @@ Mandrill Official API Wrapper for Laravel 4
 Installation :
 ==============
 
-1. Install the [package](https://github.com/SaiffilFariz/Mandrill) via composer
+1. Install the [package](https://packagist.org/packages/sairiz/mandrill) via composer
 
 2. Add the following entry to the array of service providers found in app/config/app.php :
-`'Saiffil\Mandrill\MandrillServiceProvider',`
+`'Sairiz\Mandrill\MandrillServiceProvider',`
 
 3. Publish the config file to your app/config/ directory by running the following from command line in your project root :
-`php artisan config:publish saiffil/mandrill`
+`php artisan config:publish sairiz/mandrill`
 
-4. Setup your api key at app/config/packages/saiffil/mandrill/config.php
+4. Setup your api key at app/config/packages/sairiz/mandrill/config.php
 
 
 Usage
