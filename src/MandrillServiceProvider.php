@@ -1,8 +1,7 @@
-<?php namespace Saiffil\Mandrill;
+<?php namespace Sairiz\Mandrill;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\AliasLoader;
-use Config;
 
 class MandrillServiceProvider extends ServiceProvider {
 
@@ -15,7 +14,7 @@ class MandrillServiceProvider extends ServiceProvider {
 
 	public function boot()
 	{
-		$this->package('saiffil/mandrill');
+		$this->package('sairiz/mandrill', null, __DIR__);
 	}	
 
 	/**
@@ -25,15 +24,15 @@ class MandrillServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		$this->app['mandrill'] = $this->app->share(function()
+		$this->app['mandrill'] = $this->app->share(function($app)
 		{
-			return new Mandrill(Config::get('mandrill::apiKey'));
+			return new Mandrill($app['config']['mandrill::apiKey']);
 		});
 
 		$this->app->booting(function()
 		{
 			$loader = AliasLoader::getInstance();
-			$loader->alias('Email','Saiffil\Mandrill\Facades\Mandrill');
+			$loader->alias('Email','Sairiz\Mandrill\Facades\Mandrill');
 		});
 	}
 
@@ -44,7 +43,7 @@ class MandrillServiceProvider extends ServiceProvider {
 	 */
 	public function provides()
 	{
-		return ['mandrill'];
+		return array('mandrill');
 	}
 
 }

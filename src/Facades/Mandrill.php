@@ -1,4 +1,4 @@
-<?php namespace Saiffil\Mandrill\Facades;
+<?php namespace Sairiz\Mandrill\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

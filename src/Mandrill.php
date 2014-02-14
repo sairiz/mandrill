@@ -1,10 +1,10 @@
-<?php namespace Saiffil\Mandrill;
+<?php namespace Sairiz\Mandrill;
 
 class Mandrill extends \Mandrill {
 
-    public function __construct($apikey) {
+    public function __construct($apiKey) {
 
-        parent::__construct($apikey);
+        parent::__construct($apiKey);
         curl_setopt($this->ch, CURLOPT_SSL_VERIFYPEER, FALSE);
 
     }

@@ -1,3 +1,7 @@
 <?php
 
-return ['apiKey' => 'YOUR API HERE'];
+return array(
+
+	'apiKey' => 'YOUR API HERE'
+
+);
