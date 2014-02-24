@@ -21,12 +21,12 @@ class Mandrill extends \Mandrill {
 
     public function users()
     {
-        return $this->Users;
+        return $this->users;
     }
 
     public function rejects()
     {
-        return $this->Rejects;
+        return $this->rejects;
     }
 
     public function inbound()
