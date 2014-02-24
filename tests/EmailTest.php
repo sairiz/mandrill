@@ -4,7 +4,7 @@ class EmailTest extends TestCase {
 
 	public function testMandrillIInstance()
 	{
-		$this->assertContainsOnlyInstancesOf('Sairiz\Mandrill\Mandrill', array(App::make('mandrill')) );
+		$this->assertInstanceOf('Sairiz\Mandrill\Mandrill', App::make('mandrill') );
 	}
 
 	public function testMandrillConnectionViaFacadesEmail()
