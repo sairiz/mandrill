@@ -71,7 +71,7 @@ class Mandrill extends \Mandrill {
     
     public function webhooks()
     {
-        return $this->urls;
+        return $this->webhooks;
     }
 
     public function senders()
