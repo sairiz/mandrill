@@ -32,7 +32,7 @@ Example :
         'to' => array(array('email'=>'clients@email.com'))
 	);
 
-	$response = Email::message()->send($message);
+	$response = Email::messages()->send($message);
 
 	The first method is the call category while the chain method is the method within that category
 
